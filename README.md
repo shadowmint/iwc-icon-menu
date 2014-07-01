@@ -2,6 +2,8 @@
 
 A touch friendly icon grid menu.
 
+![alt Place kitten demo of the icon menu](https://raw.github.com/shadowmint/iwc-icon-menu/master/media/demo.png)
+
 ## Usage
 
     <div class="component--iwc-icon-menu">
