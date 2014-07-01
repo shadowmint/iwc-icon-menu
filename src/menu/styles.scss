@@ -1,0 +1,72 @@
+.component--iwc-icon-menu {
+  ul {
+    position: relative;
+  }
+  li {
+    border: 2px solid #cecfc8;
+    display: inline-block;
+    width: 28%;
+    transition: width 0.5s;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 1px 1px 3px;
+    margin: 0.6em;
+    vertical-align: top;
+    text-align: center;
+    border-radius: 5px;
+    &:before {
+      content: "";
+      display: block;
+      padding-top: 100%;
+    }
+    img {
+      top: 0px;
+      left: 0px;
+      position: absolute;
+      width: 100%;
+      z-index: 0;
+      opacity: 0.5;
+      border-radius: 8px;
+      box-shadow: 2px 2px 2px #cfcfcf;
+      margin-top: -1px;
+    }
+    .content {
+      width: 100%;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      opacity: 0.7;
+      border-radius: 0.2em;
+      background: #fff;
+      display: block;
+      padding: 0.5em;
+      width: calc(100% - 2em);
+      margin: 1em;
+      box-sizing: border-box;
+      display: none;
+      h2 {
+        text-align: center;
+        overflow: hidden;
+        height: 1em;
+        display: none;
+      }
+      span {
+        display: block;
+        box-sizing: border-box;
+        margin: 1em;
+      }
+    }
+    &.active {
+      border: 2px solid #ffffff;
+      width: 50%;
+      z-index: 1;
+      transition: width 1s;
+      .content {
+        display: block;
+      }
+      img {
+        opacity: 1.0;
+      }
+    }
+  }
+}

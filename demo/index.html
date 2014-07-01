@@ -8,85 +8,82 @@
     section {
         margin: 30px;
     }
-    .component--iwc-interval-slider {
-        margin-left: 10px;
-    }
+
     body {
         font-family: sans-serif;
-        font-size: 10px;
+        font-size: 14px;
     }
+
     h1 {
         font-size: 2em;
         margin-bottom: 15px;
         margin-top: 40px;
     }
-    .mobile {
-        text-align: center;
-        width: 100%;
-    }
-    .mobile .component--iwc-interval-slider {
-        display: inline-block;
-        width: 50%;
+
+    #responsive {
+        width: 80%;
+        margin: auto;
     }
 </style>
 
-<div id="foo1"></div>
-<div id="foo2"></div>
-<div id="foo3"></div>
-<div id="foo4"></div>
-<div id="foo5"></div>
-<div id="foo6"></div>
-<section style="width: 600px">
-    <h1> Basic example </h1>
-    <div class="component--iwc-interval-slider">
-        <div data-interval="1"></div>
-        <div data-interval="1"></div>
-        <div data-interval="2"></div>
-        <div data-interval="4"></div>
-    </div>
-</section>
-
-<section style="width: 600px">
-    <h1> Small example </h1>
-    <div class="component--iwc-interval-slider">
-        <div data-interval="1"></div>
-        <div data-interval="2"></div>
-    </div>
-</section>
-
 <section>
-    <h1> Dynamic size example </h1>
-    <div class="mobile">
-        <div class="component--iwc-interval-slider">
-            <div data-interval="1"></div>
-            <div data-interval="1"></div>
-            <div data-interval="2"></div>
-            <div data-interval="4"></div>
-            <div data-interval="2"></div>
-            <div data-interval="4"></div>
-            <div data-interval="2"></div>
-            <div data-interval="4"></div>
-        </div>
-    </div>
-</section>
+    <h1> Basic example </h1>
 
-<section style="width: 400px">
-    <h1> Javascript bindings example </h1>
-    <p>
-        Selected value: <span id="value"></span>
-    </p>
-    <p>
-        <!-- See app.js for bindings -->
-        <a href="#" id="prev">prev</a>
-        <a href="#" id="next">next</a>
-    </p>
-    <div id="cmp" class="component--iwc-interval-slider">
-        <div data-interval="1"></div>
-        <div data-interval="2"></div>
-        <div data-interval="5"></div>
-        <div data-interval="1"></div>
-        <div data-interval="2"></div>
-        <div data-interval="4"></div>
+    <div id="responsive" class="component--iwc-icon-menu">
+        <div data-item="First" data-icon="http://placekitten.com/100/100">
+            <span data-desc="">
+                This is a big complex description of things with a <b>Tag</b> in it.
+                <p>
+                    <a href="Go there">Go there now</a>
+                </p>
+            </span>
+        </div>
+        <div data-item="What if this is a thing?" data-icon="http://placekitten.com/100/101"></div>
+            <span data-desc="">
+                This is a big complex description of things with a <b>Tag</b> in it.
+            </span>
+        </span>
+        <div data-item="Third" data-icon="http://placekitten.com/100/102">
+            <span data-desc="">
+                This is a big complex description of things with a <b>Tag</b> in it.
+            </span>
+        </div>
+        <div data-item="Fourth" data-icon="http://placekitten.com/100/103"><
+            <span data-action="dosomething"></span>
+            <span data-desc="">
+                This is a big complex description of things with a <b>Tag</b> in it.
+            </span>
+        </div>
+        <div data-item="Fourth" data-icon="http://placekitten.com/100/103"><
+            <span data-action="dosomething"></span>
+            <span data-desc="">
+                This is a big complex description of things with a <b>Tag</b> in it.
+            </span>
+        </div>
+        <div data-item="Fourth" data-icon="http://placekitten.com/100/104"><
+            <span data-action="dosomething"></span>
+            <span data-desc="">
+                This is a big complex description of things with a <b>Tag</b> in it.
+            </span>
+        </div>
+        <div data-item="Fourth" data-icon="http://placekitten.com/100/105"><
+            <span data-action="dosomething"></span>
+            <span data-desc="">
+                This is a big complex description of things with a <b>Tag</b> in it.
+            </span>
+        </div>
+        <div data-item="Fourth" data-icon="http://placekitten.com/100/106"><
+            <span data-action="dosomething"></span>
+            <span data-desc="">
+                This is a big complex description of things with a <b>Tag</b> in it.
+            </span>
+        </div>
+        <div data-item="Fourth" data-icon="http://placekitten.com/100/107"><
+            <span data-action="dosomething"></span>
+            <span data-desc="">
+                This is a big complex description of things with a <b>Tag</b> in it.
+            </span>
+        </div>
     </div>
 </section>
 

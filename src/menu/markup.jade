@@ -1,0 +1,15 @@
+div
+    div.title
+    ul
+        | {{#each view.icons}}
+        li(class="item",data-title="{{item}}",data-icon="{{icon}}")
+            img(src="{{this.icon}}")
+            div.content
+                h2
+                    | {{this.item}}
+                | {{#if this.desc.innerHTML}}
+                span
+                    | {{{this.desc.innerHTML}}}
+                | {{/if}}
+        | {{/each}}
+

@@ -19,7 +19,7 @@ module.exports = function (grunt) {
     });
 
     // Add build tasks for components
-    iwc.component('iwc-interval-slider', 'src/slider', 'dist');
+    iwc.component('iwc-iconmenu', 'src/menu', 'dist');
     iwc.components();
 
     // Build the task libraries
