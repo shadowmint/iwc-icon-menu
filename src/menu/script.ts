@@ -64,7 +64,6 @@ export class IconMenu extends iwc.Base {
               ref.view.title.html($e.attr('data-title'));
           };
           $e.bind('mouseup', action);
-          $e.bind('touchend', action);
       };
       $(ref.root).find('.item').each((i, e) => { bind($(e)); })
   }

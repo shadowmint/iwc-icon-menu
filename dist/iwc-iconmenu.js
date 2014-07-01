@@ -67,7 +67,6 @@
             ref.view.title.html($e.attr('data-title'));
           };
           $e.bind('mouseup', action);
-          $e.bind('touchend', action);
         };
         $(ref.root).find('.item').each(function(i, e) {
           bind($(e));
